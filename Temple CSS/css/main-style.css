@@ -1,0 +1,69 @@
+* { margin: 0; padding: 0; font-size: 14px; font-family: Helvetica, Arial, sans-serif ;}
+.nav { width: 100%; max-width: 1200px; height: 320px; display: block; position: relative; box-sizing: border-box; margin: 0 auto;}
+.nav-search { width: 320px; height: 36px; display: block; z-index: 99; position: absolute; top: 0; right:10px;}
+#search-bar { width: 100%; height: auto; margin: 4px; display: inline-block; border: 1px solid #ccc; border-radius: 40px; box-sizing: border-box; background-color: #fff;}
+#search-bar input[name='search-text']{width: 80%; height: 30px; box-sizing: border-box; margin: 2px; padding: 4px; border: none; border-radius: 40px;background-color: transparent;}
+#btn-search { width: 17%; height: 30px; display: inline-block; background-color: transparent; border: none; box-sizing: border-box; margin:0px;}
+.nav-image {width: 100%; height: 268px; display: block;}
+.nav-image img { width: 100%; height: 100%; background-color: #ddd;}
+.nav-bar { width: 100%; height: 48px; display: block; position: relative;}
+.nav-menu { width: 100%; height: inherit; display: inline-block; list-style: none;}
+.nav-menu li { width: 20%; height: 100%; float: left; text-align: center; background-color: #9C3F14; line-height: 48px;}
+.nav-menu li a { text-decoration: none; color:#fff; font-size: 14px; text-transform: uppercase; font-weight: bold;}
+.nav-menu li:hover, .nav-menu li:focus { background-color: #EE7D21;}
+.wrap-main { width: 100%; max-width: 1200px; display: block; margin: 0 auto; box-sizing: border-box; position: relative; overflow: auto;}
+.frame { width: 74.7%; height: 360px; display: block; float: left;position: relative; overflow: hidden; box-sizing: border-box; margin-right: 0.3%;}
+.slider { width: 3600px; height: 360px; display: inline-block; margin-left:0; box-sizing: border-box;}
+.image { width: 896px; height: 100%; float: left;}
+.image img { width: 100%;}
+.banner { width: 25%; height: 360px; display: block; box-sizing: border-box; float: left; overflow: hidden;}
+.banner .top, .banner .bottom { display: block; box-sizing: border-box; width: 100%; height: 180px; position: relative; float: left;}
+.bottom { bottom: -2px;}
+.clear { clear: both;}
+.box { display: block; position: relative; width: 100%; height: 38px; line-height: 38px; background-color: #EE7D21; padding-left: 4px; box-sizing:border-box; overflow: auto;}
+.title { color: #fff; text-transform: uppercase;border-top-right-radius: 4px; border-top-left-radius: 4px;}
+.container { width: 100%; position: relative; margin-top: 10px; box-sizing: border-box; display: block; height: auto; overflow: auto;}
+.frame-product { position: relative; width: 100%; height: auto; display: block; box-sizing: border-box; overflow: auto; border: 1px solid #ddd; margin-bottom: 10px; padding: 4px; }
+.col-sm { width: 25%; height: 240px; display: block; box-sizing: border-box; float: left; margin-bottom: 10px; margin-top: 5px; }
+.col-sm:hover { box-shadow: 0 0 4px 0 rgba(0,0,0,.4);}
+.image-product { position: relative; display: block; width: 96%; height: 172px; background-color: #ccc; margin: 2px auto; box-sizing: border-box;}
+.content { width: 100%; height: 68px; box-sizing: border-box; text-align: center;}
+#title { text-decoration: none; color: #000; line-height: 34px; font-weight: 600;}
+#price { color: #ff0000; line-height: 34px; font-weight: 600;}
+/* Css Form */
+.description { height: auto; box-sizing: border-box; line-height: 1.2; padding: 5px; background-color: #fff;}
+.request-customer { display: block; width: 50%; height: auto; position: relative; margin: 0 auto; border: 1px solid #ccc; border-radius: 10px;}
+.mail-request-customer { width: 100%; display: block; height: auto; padding: 5px;}
+fieldset {display: block; box-sizing: border-box; margin-right: 8px; padding-left: 15px; border: none;}
+label { font-weight: 600;}
+input[type="mail"] { height: 24px; line-height: 1; width: 80%; border-radius: 10px; padding: 4px; border: 1px solid #000;}
+input[type="submit"] { display: block; margin: 5px auto auto auto; height: 40px; border-radius: 10px; border: 1px solid #cecece; padding: 5px; background-color:#0080ff; color:#fff; }
+/* End Form */
+.store-list { width: 1000px !important; display: block; margin: 0 8%; margin-bottom: 10px; height: 420px;}
+.border-class { border: 1px solid #ccc; border-top-left-radius: 5px; border-top-right-radius: 5px; border-top: none;}
+.wrap-content { width: 860px; height: 360px; float: left; display: block; margin: 0 auto; overflow: hidden;}
+.box-shop { width: 4000px; height: 420px; display: inline-block; box-sizing: border-box; background-color: blue; margin-left: 0;}
+.thumbnail { width: 140px; height: 100%; position: absolute; right: 0; top: 0; box-sizing: border-box;}
+.image-info { width: 860px; height: 420px; float: left; display: block; margin: 0 auto; box-sizing: border-box; overflow: auto; position: absolute;}
+.image-info img { width: 100%}
+.image-info .info { width: 100%; height: 60px; box-sizing: border-box; display: block;  bottom: 0; position: absolute; left: 0; background-color: #ccc; z-index: 99; padding: 4px;}
+.slide-thumbnail { width: 100%; height: 450px; margin-top: 0; overflow: hidden; display: block; box-sizing: border-box;}
+.image-thumbnail { max-width: 100%; height: 80px; display: block; border: 1px solid red; margin: 4px; box-sizing: border-box;}
+.image-thumbnail img { width: 100%;}
+.footer { width: 100%; display: block; position: relative; overflow: auto; box-sizing: border-box;min-height: 200px; margin-top: 20px;}
+.top-content, .middle-content, .bottom-content { height: auto; position: relative; display: block; box-sizing: border-box; overflow: auto;}
+.top-content { border-bottom: 1px solid #ddd; color:#000;height: auto;text-align: center; }
+.top-content h1 { font-size: 34px; line-height: 2;}
+.info-contact { box-sizing: border-box; height: inherit; display: block; overflow: auto;}
+.info-contact i { font-size: 1.1em;}
+.info-contact p { float: left; width: 100%; text-align: left; height: 28px; font-size: 1.1em; margin: 5px 0;}
+.middle-content { background-color: #fff;}
+.bottom-content { border-top: 1px solid #ddd; text-align: center; line-height: 2; overflow: auto;color: #000;}
+.bottom-content p { font-weight: bold;}
+.col-left, .col-right, .col-middle  { display: block; overflow: auto; box-sizing: border-box; width: 33.33%; height: inherit; float: left;}
+/* Short Link */
+.short-link { list-style: none; padding: 10px;}
+.short-link li { height: 24px;}
+.short-link a { text-decoration: none; font-size: 14px; color: #000; font-weight: bold;}
+.short-link a:hover { font-weight: bold; color: #0080ff;}
+/* End short-link */
